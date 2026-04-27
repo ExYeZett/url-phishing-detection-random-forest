@@ -2,7 +2,7 @@ import re
 import discord
 from predict import predict_url
 
-TOKEN = "Your Bot Token Here"  # ⚠️ WAJIB GANTI TOKEN BARU
+TOKEN = "Your Bot Token Here"
 
 intents = discord.Intents.default()
 intents.message_content = True
